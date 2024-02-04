@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator virsta</title>
+</head>
+<body>
+    <h1>Calculator virsta</h1>
+    <input 
+        id="person_dob"
+        type="text"
+        placeholder="introduce-ti anul de nastere: "/>
+
+        <button
+            onclick="result.innerText=1900 + new Date().getYear() - person_dob.value"
+        >calculeaza virsta</button>
+        <h3>virsta dvs este de: </h3>
+        <h3 id="result">...</h3>
+
+</body>
+</html>
